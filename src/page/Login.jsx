@@ -31,7 +31,6 @@ export default function Login(){
                 </div>
                 <div className="container-fluid col-lg-6 p-lg-4 p-3 loginForm">
                     <p className='text-center title'>Login to your account</p>
-                    <form action="">
                     <div className="name">
                             <input type="text" className='container-fluid' placeholder='username'/>
                            </div>
@@ -40,9 +39,8 @@ export default function Login(){
                 <span onClick={()=>setview((prev) => !prev)} > {view ? <BsEyeSlashFill className='hide position-absolute'/> : <BsFillEyeFill className='hide position-absolute'/>} </span>
             </div>
                     <div className="text-center">
-                           <button className='loginBtn' type='submit'>Login</button>
+                           <button className='loginBtn'>Login</button>
                     </div>
-                    </form>
                     <div className="d-flex justify-content-between formNext">
                         <p className='text-center'>Not a client yet?<span><Link className='nav-link' to="/register"> Create Account! </Link></span> </p>
                         <p className='text-center'>Forgot password? <span><Link className='nav-link' to="/forgot-password" >Click here! </Link></span> </p>
