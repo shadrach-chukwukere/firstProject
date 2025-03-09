@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/********* Header Style****/
+
+.logoTitle{
+    font-weight: 795;
+    font-family: Mulish;
+}
+
+
+.link{
+    font-weight: 600;
+}
+
+.sign{
+    border-radius: 8px;
+    gap: 10px;
+    padding: 5px 32px 5px 32px !important;
+    border: 1px solid #000000;
+    font-weight: 600;
+}
+
+.log{
+    background-color: #2EC0F0;
+    color: white;
+    border-radius: 9px;
+    gap: 10px;
+    padding: 5px 32px 5px 32px !important;
+    font-weight: 600;
+}
+
+
+.navbar-nav{
+    gap: 31px;
+}
+
+#wrap{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.cartImg{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/***********  Footer   **********/
+
+.footTile{
+    font-family: Mulish;
+    font-size: 16.3px;
+    line-height: 20.46px;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.footVile{
+    font-family: Mulish;
+    font-size: 13.24px;
+    font-weight: 700;
+    color: #C4C4C4;
+}
+
+.footContactIcon{
+    width: 24.45px;
+    border: none;
+    height: 24.45px;
+}
+
+.footer{
+    background-color: #04304A;
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+.unknown{
+    width: 75px;
+    height: 73px;
+}
+
+.unknownMom{
+    padding-right: 35px;
+    padding-left: 35px;
+    position:fixed;
+    bottom: calc(3vh);
+}
+
+.socialMediaIcon{
+
+    div{
+        background-color: #000D2F;
+        scale: 1.3;
+        border-radius: 50%;
+        padding: 10px 10px 10px 10px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        cursor: pointer;
+        transition: 0.3s ease;
+        margin-bottom: 1rem;
+    }
+
+    div:active{
+        scale: 0.9;
+    }
+}
+
+.socialIcons{
+    filter: invert(100%);
+}

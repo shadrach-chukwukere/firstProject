@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/*****  Cart cart ******/
+
+
+
+.cartBold{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cartLyte{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cartDash{
+    background-color: #EAFDF7;
+}
+
+.selectForm{
+    border: 0.5px solid #000000;
+    border-radius: 9px;
+    transition: 0.3s;
+    width: 168px;
+    height: 43px;
+    font-size: 18px;
+    font-family: Mulish;
+    font-weight: 400;
+    background-color: transparent;
+    color: #000000;
+}
+
+.selectForm:focus{
+    box-shadow: none !important;
+    border-color: #000000 !important;
+    outline: none;
+}
+
+.cartCard{
+    background-color: #EAFDF7;
+}
+
+.vatPlace{
+    margin-bottom: 6rem;
+}
+
+.totalPlace{
+
+    .totalPlaceTitle{
+        font-weight: 800;
+        font-size: 16px;
+        font-family: Mulish;
+    }
+    
+    .totalPlaceValue{
+        font-weight: 700 !important;
+    }
+}

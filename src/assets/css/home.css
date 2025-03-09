@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/********  Hero Hero ********/
+
+.heroText{
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 1000;
+    line-height: 50.2px;
+    color: #FFFFFFF2;
+    margin-top: 95px;
+}
+
+@media(max-width:400px){
+    .heroText{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+}
+
+.domainSearch{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+.domainSearch::placeholder{
+    color: #FFFFFFF2;
+}
+
+.domainSearch:focus{
+    outline: none;
+}
+
+.input-group-text-home{
+    background-color: transparent !important;
+    border: none;
+}
+
+.heroSearch{
+    border: 2px solid #FFFFFFF2 !important;
+    border-radius: 16px;
+    height: 64px;
+    padding-top: 3px;
+    margin-top: 44px;
+    padding-bottom: 3px;
+}
+
+.searchBtn{
+    padding: 15px 42px;
+    cursor: pointer;
+    border-radius: 95.5px;
+    background-color: #FFFFFFF2;
+    color: #000000;
+    font-weight: 700;
+    font-family: Mulish;
+    height: 100%;
+    text-wrap: nowrap;
+    font-size: 15.37px;
+}
+
+
+.heroTextDown{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.1px;
+    margin-top: 54px;
+    padding-left: 10px;
+    color: #FFFFFFF2;
+}
+
+.hero{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 571px;
+    border-radius: 25px;
+}
+
+.searchIcon{
+    width: 32px;
+    height: 32px;
+}
+
+@media(max-width:1000px){
+    .hero{
+        height: 100%;
+    }
+}
+
+@media(max-width:800px){
+    .searchBtn{
+        padding: 15px 15px;
+    }
+
+    .domainSearch{
+        padding-left: 10px;
+    }
+}
+
+
+@media(max-width:500px){
+   .searchBtn{
+         text-wrap: wrap;
+         display: flex;
+         justify-items: center;
+         align-items: center;
+         text-align: center;
+   }
+}
+
+/******* Benefit *******/
+
+.benText{
+    font-family: Mulish;
+    color:#0E71AD;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.ben{
+    background-color: #F3FBFF;
+    margin-top: 83px;
+    margin-bottom: 100px;
+}
+
+.unique{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.virt{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 25.1px;
+}
+
+.benImage{
+    width: 50px;
+    height: 50px;
+}
+
+
+/****** Why Mortal Web ***********/
+
+.why{
+    margin-bottom: 80px;
+}
+
+
+.whyHead{
+    font-family: Mulish;
+    color: #0E71AD;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 800;
+}
+
+.whyText{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.1px;
+}
