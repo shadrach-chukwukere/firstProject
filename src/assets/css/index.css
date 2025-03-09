@@ -10,6 +10,11 @@
 }
 
 
+.justify-content-safe{
+    cursor: pointer;
+}
+
+
 .link{
     font-weight: 600;
 }

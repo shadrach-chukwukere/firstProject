@@ -46,7 +46,7 @@ const { width } = useWindowSize()
             <div className="container">
             <div className="text-center benText p-4 mb-4">Benefits</div>
             <div className="row">
-                <div className="col-lg-6 mb-3  pb-0 p-3 p-lg-4">
+                <div className="col-lg-6 mb-3  pb-0 p-3 p-md-4">
                    <div className="d-flex align-items-center">
                    <img src={identifyCard} alt='card' className='benImage me-3'/>
                    <div className="">
@@ -55,7 +55,7 @@ const { width } = useWindowSize()
                    </div>
                    </div>
                 </div>
-                <div className="col-lg-6 mb-3 pb-0 p-3 p-lg-4">
+                <div className="col-lg-6 mb-3 pb-0 p-3 p-md-4">
                 <div className="d-flex align-items-center">
                 <img src={guarantee} alt='card' className='benImage me-3'/>
                 <div className="">
@@ -65,7 +65,7 @@ const { width } = useWindowSize()
                 </div>
                 </div>
                 </div>
-                <div className="col-lg-6 mb-3 pb-0 p-3 p-lg-4">
+                <div className="col-lg-6 mb-3 pb-0 p-3 p-md-4">
                     <div className="d-flex align-items-center">
                     <img src={suitCase} alt='card' className='benImage me-3'/>
                     <div className="">
@@ -75,7 +75,7 @@ const { width } = useWindowSize()
                     </div>
                    </div>
                 </div>
-                <div className="col-lg-6 pb-0 p-3 p-lg-4">
+                <div className="col-lg-6 pb-0 p-3 p-md-4">
                 <div className="d-flex align-items-center">
                 <img src={brandBumble} alt='card' className='benImage me-3'/>
                 <div className="">
